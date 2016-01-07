@@ -278,6 +278,14 @@ color: rgba(209, 209, 209, 0.8);
 text-decorarion:none;
 outline: none;
 font-size: 18px;
+     -webkit-transition: .4s ease-out;
+     -webkit-transition-delay: 0.5s;
+     -o-transition: .4s ease-out;
+     -o-transition-delay: 0.5s;
+     -moz-transition: .4s ease-out;
+     -moz-transition-delay: 0.5s;
+     transition: .4s ease-out;
+     transition-delay: 0.5s;
 }	
 
 .menu li:hover{
@@ -372,6 +380,7 @@ color:rgb(45, 45, 45);
 }
 
 .mainpart iframe{
+	width:470px;
 	padding-top:30px;
 	padding-bottom:20px;
 	padding-left:auto;
