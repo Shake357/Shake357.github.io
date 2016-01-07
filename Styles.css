@@ -111,7 +111,7 @@ outline: none;
 .menu li:active{
 	   background:rgba(31, 31, 31, 0.8);
 	   box-shadow: inset 0 0 12px 0 black;
-	   color:red;
+	   color: black;
   }
   
 .menu li:visited{
@@ -198,7 +198,7 @@ color:rgb(45, 45, 45);
 	html, body {
    margin:0;
 	   height:auto;
-	   wifth:100%;
+	   width:100%;
 	   background-color: black;
 	   background:rgb(255, 255, 255);
     -moz-background-size: 100%; /* Firefox 3.6+ */
@@ -270,6 +270,7 @@ max-height:50px;
 color: #cccccc;
 outline: none;
 text-decorarion:none;
+font-size: 18px;
 
 	}
 	
@@ -278,14 +279,14 @@ color: rgba(209, 209, 209, 0.8);
 text-decorarion:none;
 outline: none;
 font-size: 18px;
-     -webkit-transition: .4s ease-out;
+  /*   -webkit-transition: .4s ease-out;
      -webkit-transition-delay: 0.5s;
      -o-transition: .4s ease-out;
      -o-transition-delay: 0.5s;
      -moz-transition: .4s ease-out;
      -moz-transition-delay: 0.5s;
      transition: .4s ease-out;
-     transition-delay: 0.5s;
+     transition-delay: 0.5s;*/
 }	
 
 .menu li:hover{
@@ -380,10 +381,8 @@ color:rgb(45, 45, 45);
 }
 
 .mainpart iframe{
-	width:470px;
 	padding-top:30px;
 	padding-bottom:20px;
-	padding-left:auto;
-	padding-right:auto;
+
 }	
 }
